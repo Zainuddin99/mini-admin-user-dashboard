@@ -1,0 +1,19 @@
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addUserForm{
+    display: flex;
+    flex-direction: column;
+    background-color:aqua;
+}
+.productsContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color:red;
+}
