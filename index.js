@@ -38,7 +38,7 @@ app.use("/documents/", (req, res) => {
 app.post("/api/login", login);
 
 //Auth
-app.use(authorisation);
+app.use("/api", authorisation);
 
 //routes
 app.use("/api/user", userRoutes);
