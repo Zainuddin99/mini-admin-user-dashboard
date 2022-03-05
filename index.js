@@ -4,6 +4,7 @@ require("dotenv").config();
 const cors = require("cors");
 const { errorHandler } = require("./config/errorHandler");
 const { authorisation } = require("./Middlewares/Authorisation");
+const path = require("path");
 
 //Controllers
 const { login } = require("./Controller/user");
