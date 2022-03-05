@@ -34,7 +34,7 @@ function Copyright(props) {
 }
 
 export default function SignIn() {
-    const [inputs, setInputs] = useState({ email: "", password: "" });
+    const [inputs, setInputs] = useState({ email: "admin@gmail.com", password: "123456" });
     const navigate = useNavigate();
     const {setUser} = UseMainContext()
     const [isSaving, setIsSaving] = useState(false)
